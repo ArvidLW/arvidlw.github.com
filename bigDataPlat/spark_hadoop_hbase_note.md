@@ -99,13 +99,13 @@ Yarn：Hadoop资源管理器，可以为上层应用提供统一的资源管理�
 
 原因：由于路径写错了
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image002.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image001.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image004.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image003.jpg)
 
 ## b)       建立连接
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image006.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image005.jpg)
 
 默认读取Hdfs-site.xml,core-site.xml,mapred-site.xml等配置来建立连接
 
@@ -129,7 +129,7 @@ Yarn：Hadoop资源管理器，可以为上层应用提供统一的资源管理�
 
 [http://www.aboutyun.com/forum.php?mod=viewthread&tid=7115](http://www.aboutyun.com/forum.php?mod=viewthread&tid=7115)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image008.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image007.jpg)
 
 MR：离线计算框架
 
@@ -157,9 +157,7 @@ Spark：内存计算框架
 
 Ps:Yarn(淘宝团队) Mesos(豆瓣)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image010.gif)
-
- 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/add1.jpg)
 
  
 
@@ -187,15 +185,15 @@ Eg:
 
 帮助理解：
 
-[![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image012.jpg)](undefined)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image011.jpg)
 
 图：Hadoop分布图
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image010.gif)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/add2.jpg)
 
 图；Hadoop HDFS文件浏览
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image010.gif)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/add3.jpg)
 
 图：Hadoop常用端口
 
@@ -475,11 +473,11 @@ i.         安装maven，并设置环境变量（网上有的是）
 
 ii.       查看配置是否完成。mvn -v 出现版本信息，表示配置成功
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image016.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image015.jpg)
 
 iii.      设置仓库位置
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image018.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image017.jpg)
 
 默认的maven仓库位置为：C:\Users\Administrator\.m2（其中Administrator为当前账号）
 
@@ -491,7 +489,7 @@ Maven插件下载：[http://pan.baidu.com/s/1i5weBZZ](http://pan.baidu.com/s/1i5
 
 解压后，把links、myplugins文件夹放到eclipse安装目录下，如下图所示：         
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image020.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image019.jpg)
 
 并且修改links下的maven.link文件。指向myplugins目录即可。我的配置为： 
 
@@ -501,21 +499,21 @@ path=F:/android/adt-bundle-eclipse/eclipse/myplugins/maven
 
 选择window->preferences->maven，如下图所示：
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image022.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image021.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image024.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image023.jpg)
 
 继续选择“User Settings”，配置maven的setting文件，如下图所示： 
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image026.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image025.jpg)
 
 好，此时maven插件安装完毕。
 
 ## e)       查看maven的console
 
-![e9099d4e-fed8-3f94-a903-a1a9ebf4a410](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image028.jpg)
+![e9099d4e-fed8-3f94-a903-a1a9ebf4a410](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image027.jpg)
 
-![53e9426e-6b7d-35e8-b089-7f91e5f3f322](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image030.jpg)
+![53e9426e-6b7d-35e8-b089-7f91e5f3f322](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image029.jpg)
 
 ## f)        注意事项
 
@@ -533,7 +531,7 @@ Maven-archetype-quickstart与maven-archetype-profiles结构是一样的，即pro
 
 出现BUILD SUCCESS则表示安装成功了，就可以通过eclispe建quickstart结构的工程了。如下图所示：
 
-![archetype-quickstart](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image032.gif)
+![archetype-quickstart](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image031.jpg)
 
 ## h)       Pom.xml红叉
 
@@ -549,7 +547,7 @@ ii.       eclipse没有自己下载，出现missing情况
 
 2.       搜索出该目录下的*lastUpdated.properties文件并删除，如下图所示，可以通过模糊搜索匹配出这样的文件
 
-![591946-20160625180424641-1605154513](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image034.gif)
+![591946-20160625180424641-1605154513](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image033.jpg)
 
 3.       Maven 更新当前项目，maven就会继续下载缺失的依赖jar包，直至缺失jar包下载完成，上述问题就解决了。
 
@@ -583,7 +581,7 @@ Other：
 
 Ps：为什么要加入到build path，因为在编译时会通过path去查找和检查文件，然后在运行时候利用。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image036.jpg)![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image038.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image035.jpg)![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image037.jpg)
 
 如果要用到MapReduce的话还应用把hadoop相应的配置文件放进来
 
@@ -593,13 +591,13 @@ Ps：为什么要加入到build path，因为在编译时会通过path去查找�
 
 将Hbase安装包下lib下的jar包拷贝下来，然后放到本地，将jar包加入到build path里面。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image040.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image039.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image042.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image041.jpg)
 
 这样就可以了，import这些就可以正确的找到了。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image044.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image043.jpg)
 
 Ps：在依赖包里没有的但却能正确的运用的，说明在java的本身包里面，或者在classpath里面，或者在jre/lib/，jre/lib/ext里面，这里面的包将被自动搜索。《Java核心技术第八版》第4.8类路径
 
@@ -670,7 +668,7 @@ iv.      Pom.xml出错出现红叉
 
 3.       换一个远程仓库，在usersetting中找到对仓库的配置，然后，编辑设置文件，更换远程仓库地址。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image046.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image045.jpg)
 
 [https://maven2-repository.java.net/](https://maven2-repository.java.net/)
 
@@ -739,7 +737,7 @@ Eg2:在pom.xml中
 
 ```
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image048.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image047.jpg)
 
 当用新的仓库时，再次更新的时候就会从新的远程仓库上下载，上面的库类。
 
@@ -763,7 +761,7 @@ PropertyConfigurator.configure("../log4j.properties");
 
 在这时我放在resoures中
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image050.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image049.jpg)
 
  
 
@@ -791,7 +789,7 @@ log4j.logger.java.sql.PreparedStatement=DEBUG 
 
 这个文件这里放在src/main/java的根目录中 
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image052.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image051.jpg)
 
 ## e)       出现not locate executable null\bin\winutils.exe
 
@@ -801,7 +799,7 @@ log4j.logger.java.sql.PreparedStatement=DEBUG 
 
 Winutils.exe，是通过它来执行我们编写的程序来连接hbase吧
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image054.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image053.jpg)
 
 Java:
 
@@ -855,7 +853,7 @@ ii.       配置环境变量
 
 运行窗口字体：settings->editor->clors&Fonts->console Font
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image056.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image055.jpg)
 
 ## b)       方法
 
@@ -863,7 +861,7 @@ ii.       配置环境变量
 
 加入libraries设置这个就相当于把依赖包路径加入到了编译命令中，这些依赖包在服务器上会在环境变量path中找，再在程序指定的依赖包中找，所以只要找到了就能愉快的运行了。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image058.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image057.jpg)
 
 ## c)       遇到错误
 
@@ -873,11 +871,11 @@ Error1:0 test class found in package ‘<default package>’
 
 不过可以配置多个应用入口，点击+号，application。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image060.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image059.jpg)
 
 然后，我们在运行时可以选择相应的以不同class为入口的应用
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image062.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image061.jpg)
 
 # 11、数据接入
 
@@ -885,7 +883,7 @@ Error1:0 test class found in package ‘<default package>’
 
 [http://www.csdn.net/article/2015-02-13/2823955?ref=myread](http://www.csdn.net/article/2015-02-13/2823955?ref=myread)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image064.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image063.jpg)
 
 Hive：是建立在Hadoop上的数据仓库基础构架。所有Hive数据都存储在Hadoop兼容的文件系统中（例：Amazon S3、HDFS）中。Hive在加载数据过程中不会对数据进行任何修改，只是将数据移动到HDFS中Hive设定目录下，因此，Hive不支持对数据的改写和添加。
 
@@ -901,7 +899,7 @@ Spark SQL：摆脱了对Hive的依赖，兼容Hive，可以从RDD、PARQUET文�
 
 [http://www.cnblogs.com/gaopeng527/p/4315808.html](http://www.cnblogs.com/gaopeng527/p/4315808.html)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image066.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image065.jpg)
 
 内部：
 
@@ -913,7 +911,7 @@ DataFrame：是一种以RDD为基础的分布式数据集，类似于传统数�
 
 DataSet：Dataset可以认为是DataFrame的一个特例，主要区别是Dataset每一个record存储的是一个强类型值而不是一个Row。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image068.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image067.jpg)
 
  
 
@@ -981,7 +979,7 @@ HRegionServer存取一个子表时，会创建一个HRegion对象，然后对表
 
 一个HRegionServer会有多个HRegion和一个HLog。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image070.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image069.jpg)
 
 # 13、HBase
 
@@ -993,7 +991,7 @@ HRegionServer存取一个子表时，会创建一个HRegion对象，然后对表
 
 [http://www.cnblogs.com/captainlucky/p/4710642.html](http://www.cnblogs.com/captainlucky/p/4710642.html)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image072.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image071.jpg)
 
 ## b)       简介
 
@@ -1001,7 +999,7 @@ HRegionServer存取一个子表时，会创建一个HRegion对象，然后对表
 
 HBase是种大数据数据库，类似于google,bigTable。其使用和用其实数据库一样，可以用过其提供的端口进行操作，可以在eclipse中开发应用连接HBase并进行相关操作。
 
-![20131226152639203](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image074.jpg)
+![20131226152639203](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image073.jpg)
 
 ## c)       Hbase表的特点
 
@@ -1049,11 +1047,11 @@ HBase 为每个值维护了多级索引，即：<key,column family, column name,
 
 4、Region是Hbase中分布式存储和负载均衡的最小单元，不同Region分布到不同RegionServer上。
 
-![20131226173410546](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image076.gif)
+![20131226173410546](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image075.jpg)
 
 5、Region虽然是分布式存储的最小单元，但并不是存储的最小单元。Region由一个或者多个Store组成，每个store保存一个columns family；每个Strore又由一个memStore和0至多个StoreFile组成，StoreFile包含HFile；memStore存储在内存中，StoreFile存储在HDFS上。
 
-![20131226173700718](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image078.gif)
+![20131226173700718](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image077.jpg)
 
 ## f)        Hbase shell
 
@@ -1067,7 +1065,7 @@ HBase 为每个值维护了多级索引，即：<key,column family, column name,
 
 ## g)      HBase架构及基本组件
 
-![20131226173618000](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image080.jpg)
+![20131226173618000](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image079.jpg)
 
 **Client**
 
@@ -1133,11 +1131,11 @@ HBase 为每个值维护了多级索引，即：<key,column family, column name,
 
 Zookeeper的引入使得Master不再是单点故障
 
-![20131226173747937](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image082.gif)
+![20131226173747937](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image081.jpg)
 
 **Write-Ahead-Log****（WAL****）**
 
-**![20131226173931750 (1)](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image084.jpg)**
+**![20131226173931750 (1)](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image083.jpg)**
 
 **该机制用于数据的容错和恢复：**
 
@@ -1163,7 +1161,7 @@ Zookeeper容错：Zookeeper是一个可靠地服务，一般配置3或5个Zookee
 
 Region定位流程：
 
-![20131226174043000](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image086.gif)
+![20131226174043000](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image085.jpg)
 
 找RegionServer
 
@@ -1217,7 +1215,7 @@ HDFS适合批处理场景
 
 不支持数据更新
 
-![20131226173115312](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image088.gif)
+![20131226173115312](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image087.jpg)
 
 ## j)         HBase高可用性配置
 
@@ -1243,15 +1241,15 @@ HMaster没有单点问题，HBase中可以启动多个HMaster，通过Zookeeper�
 
 Eg:[http://10.3.9.231:16010/master-status](http://10.3.9.231:16010/master-status)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image090.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image090.jpg)
 
 表明这台机器上的HMaster是standby的。
 
 当我kill 10.3.9.231的HMaster后
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image092.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image092.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image094.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image094.jpg)
 
 其变成的active HMaster
 
@@ -1263,7 +1261,7 @@ Eg:[http://10.3.9.231:16010/master-status](http://10.3.9.231:16010/master-status
 
 i.         配置logs,在安装目录conf下的 hbase-env.sh
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image095.gif)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image094.jpg)
 
 env里面设置的是程序启动前的一些配置，日志是程序没跑起来都需要的。
 
@@ -1271,33 +1269,33 @@ env里面设置的是程序启动前的一些配置，日志是程序没跑起�
 
 ii.       在HBase的安装目录下的conf的hbase-site.xml里面有配置，hbase.tmp.dir，hbase运行临时目录。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image097.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image096.jpg)
 
 Hbase-default.xml
 
 [https://github.com/apache/hbase/blob/master/hbase-common/src/main/resources/hbase-default.xml](https://github.com/apache/hbase/blob/master/hbase-common/src/main/resources/hbase-default.xml)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image099.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image098.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image010.gif)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/add4.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image101.gif)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image101.jpg)
 
 iii.       
 
 iv.       在HBase的安装文件夹下通过find ./ “*log*”找到
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image103.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image102.jpg)
 
 可以看到这里有log4j的配置，也就是我们在运行Hbase相关程序时，它会通过这个配置来打印与操作我们的信息。至于它是否保存在哪或者怎么设置还不太清楚。
 
 这个log4j.properies 可以放在我们的项目的资源文件夹下，这样当我们运行程序时会根据配置打印相关内容，方便我们查看
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image105.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image104.jpg)
 
 上面是部分配置信息，可以看到日志是通过INFO，控制台输出的
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image107.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image106.jpg)
 
 上面是程序运行时输出和Log输出
 
@@ -1307,7 +1305,7 @@ iv.       在HBase的安装文件夹下通过find ./ “*log*”找到
 
 Bin文件下的命令
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image109.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image108.jpg)
 
 ERROR:org.apache.hadoop.hbase.PleaseHoldException
 
@@ -1415,15 +1413,15 @@ Family为列族，比如有两列，列的字段和数量是提前指定好的�
 
 [http://blog.csdn.net/dbanote/article/details/8904003](http://blog.csdn.net/dbanote/article/details/8904003)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image111.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image110.jpg)
 
 [单元格由行键，列族：限定符，时间戳唯一决定。](undefined)
 
 Cell中数据是没有类型的，全部以字节码形式存储
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image113.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image112.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/spark_hadoop_mllib_note/clip_image115.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/spark_hadoop_mllib_note-small/clip_image114.jpg)
 
  
 

@@ -75,13 +75,17 @@ MM：Moment method 矩估计
 
 ## b) **OLS**
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD41D.tmp.jpg) 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD41D.jpg) 
 
-注意这里Q是实际值与预测值的误差平方和，这里看作关于![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD41E.tmp.png)的方程，即最终拟合曲线方程的参数。
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD41D.jpg) 
 
-要使拟合曲线更贴近实际，误差平方和就要最小，于是对Q关于![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD42E.tmp.png)进行求偏导数，根据实际场景知道存在对![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD42F.tmp.png)的偏导为零使得误差达到最小，从而求出![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD430.tmp.png)的估计值，进而得到拟合方程。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD431.tmp.jpg) 
+
+注意这里Q是实际值与预测值的误差平方和，这里看作关于![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD41E.jpg)的方程，即最终拟合曲线方程的参数。
+
+要使拟合曲线更贴近实际，误差平方和就要最小，于是对Q关于![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD42E.jpg)进行求偏导数，根据实际场景知道存在对![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD42F.jpg)的偏导为零使得误差达到最小，从而求出![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD430.jpg)的估计值，进而得到拟合方程。
+
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD431.jpg) 
 
 此方法要求X是列满秩的，而且求矩阵的逆比较慢。若X不是列满秩则求不出来拟合曲线的所有参数，当然[这表示其中](undefined)参数是相关联的，可以消去，或者说相应参数在式子中没有起到作用，可以通过重新确定参数也求解。
 
@@ -89,13 +93,13 @@ MM：Moment method 矩估计
 
 最大似然估计和最小二乘估计的区别和联系
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD442.tmp.jpg) 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD442.jpg) 
 
-残差![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD443.tmp.png)服从![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD454.tmp.png)的正态分布，而![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD455.tmp.png)
+残差![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD443.jpg)服从![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD454.jpg)的正态分布，而![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD455.jpg)
 
 ## c) **误差函数为平方和的概率解释**
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD456.tmp.jpg) 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD456.jpg) 
 
 [http://blog.csdn.net/statdm/article/details/7585153](http://blog.csdn.net/statdm/article/details/7585153)
 
@@ -103,15 +107,15 @@ MM：Moment method 矩估计
 
 ## d) **带权重的线性回归**
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD466.tmp.jpg) 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD466.jpg) 
 
 # 4、**Logistic regression(Logistic 回归)**
 
 [http://scau200630760309.blog.163.com/blog/static/191217862201210147521204/](http://scau200630760309.blog.163.com/blog/static/191217862201210147521204/)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD467.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD467.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD478.tmp.png)表示在所有特征均有的情况下发生的情况。
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD478.jpg)表示在所有特征均有的情况下发生的情况。
 
 ## a) **阶跃函数**
 
@@ -127,15 +131,15 @@ MM：Moment method 矩估计
 
 西格马函数，即S型函数，被用于Logistic regression，因此也叫Logistic函数。基本形式为：
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD479.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD479.jpg)
 
 值域为(0,1)，定义域为(-INF,INF)，由于其函数曲线特性与正态分布的概率曲线特性类似，因此可以模拟事件发生概率。又由于其阶跃性，所以容易对事物进行分类。
 
  一般来说，回归不用在分类问题上，因为回归是连续型模型，而且受噪声影响比较大。如果非要应用进入，可以使用logistic回归，因为其阶跃性，可以较好区别事物。
 
- logistic回归本质上是线性回归，只是在特征到结果的映射中加入了一层Sigmoid函数映射，即先把特征线性求和，然后使用函数![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD47A.tmp.png)作为假设函数来预测。
+ logistic回归本质上是线性回归，只是在特征到结果的映射中加入了一层Sigmoid函数映射，即先把特征线性求和，然后使用函数![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD47A.jpg)作为假设函数来预测。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD47B.tmp.jpg) 
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD47B.jpg) 
 
 得到迭代公式。
 
@@ -165,7 +169,7 @@ MM：Moment method 矩估计
 
 ## b) **贝叶斯定理**
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD48B.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD48B.jpg)
 
 ## c) **病人分类例子**
 
@@ -237,21 +241,21 @@ MM：Moment method 矩估计
 
 [http://www.cnblogs.com/leoo2sk/archive/2010/09/17/naive-bayesian-classifier.html](http://www.cnblogs.com/leoo2sk/archive/2010/09/17/naive-bayesian-classifier.html)
 
-假设某个体![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD48C.tmp.png)有n项特征（Feature），分别为![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD49D.tmp.png)，即![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD49E.tmp.png)。现有m个类别（Category），分别为![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD49F.tmp.png)。贝叶斯分类器就是[计算出对该个体](undefined)![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4B0.tmp.png)概率最大的那个分类，也就是求下面这个算式的最大值：
+假设某个体![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD48C.jpg)有n项特征（Feature），分别为![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD49D.jpg)，即![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD49E.jpg)。现有m个类别（Category），分别为![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD49F.jpg)。贝叶斯分类器就是[计算出对该个体](undefined)![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4B0.jpg)概率最大的那个分类，也就是求下面这个算式的最大值：
 
  
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4B1.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4B1.jpg)
 
-则：该个体![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4B2.tmp.png)属于![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4B3.tmp.png)
+则：该个体![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4B2.jpg)属于![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4B3.jpg)
 
-由于![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4C3.tmp.png) 对于所有的类别都是相同的，可[以省略，问题就](undefined)变成了求![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4C4.tmp.png)的最大值。
+由于![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4C3.jpg) 对于所有的类别都是相同的，可[以省略，问题就](undefined)变成了求![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4C4.jpg)的最大值。
 
 ## e) **朴素贝叶斯分类**
 
 假设所有特征都彼此独立，因此：
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4C5.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4C5.jpg)
 
 上式等号右边的每一项，[都可以从统计资料中得到，由此就可以计算出每个类别对应的概率](undefined)[，从而找出最大概率的那个类](undefined)。
 
@@ -261,39 +265,39 @@ MM：Moment method 矩估计
 
 [http://www.cnblogs.com/leoo2sk/archive/2010/09/17/1829190.html](http://www.cnblogs.com/leoo2sk/archive/2010/09/17/1829190.html)
 
-根据某社区网站的抽样统计，该站10000个账号中有89%为真实账号（设为![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4C6.tmp.png)），11%为虚假账号（设为![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4D7.tmp.png)）。
+根据某社区网站的抽样统计，该站10000个账号中有89%为真实账号（设为![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4C6.jpg)），11%为虚假账号（设为![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4D7.jpg)）。
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4D8.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4D8.jpg)
 
-　　	![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4D9.tmp.png)
+　　	![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4D9.jpg)
 
 接下来，就要用统计资料判断一个账号的真实性。假定某一个账号有以下三个特征：
 
  
 
-　　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4DA.tmp.png): 日志数量/注册天数 
+　　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4DA.jpg): 日志数量/注册天数 
 
-　　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4EB.tmp.png): 好友数量/注册天数 
+　　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4EB.jpg): 好友数量/注册天数 
 
-　　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4EC.tmp.png): 是否使用真实头像（真实头像为1，非真实头像为0）
+　　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4EC.jpg): 是否使用真实头像（真实头像为1，非真实头像为0）
 
-若该帐号统计结果：　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4ED.tmp.png)　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4FD.tmp.png)　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4FE.tmp.png)
+若该帐号统计结果：　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4ED.jpg)　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4FD.jpg)　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4FE.jpg)
 
 请问该账号是真实账号还是虚假账号？
 
 方法是使用朴素贝叶斯分类器，计算下面这个计算式的值。
 
-　　　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD4FF.tmp.png)
+　　　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD4FF.jpg)
 
-虽然等式右边这些值可以从统计资料得到，但是这里有一个问题：![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD510.tmp.png)和![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD511.tmp.png)是**连续变量**，不适宜按照某个特定值计算概率。
+虽然等式右边这些值可以从统计资料得到，但是这里有一个问题：![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD510.jpg)和![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD511.jpg)是**连续变量**，不适宜按照某个特定值计算概率。
 
-一个技巧是将连续值变为离散值，计算区间的概率。比如将![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD512.tmp.png)分解成[0, 0.05]、(0.05, 0.2)、[0.2, +∞]三个区间，然后计算每个区间的概率。在我们这个例子中，![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD513.tmp.png)等于0.1，落在第二个区间，所以计算的时候，就**使用第二个区间的发生概率**。
+一个技巧是将连续值变为离散值，计算区间的概率。比如将![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD512.jpg)分解成[0, 0.05]、(0.05, 0.2)、[0.2, +∞]三个区间，然后计算每个区间的概率。在我们这个例子中，![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD513.jpg)等于0.1，落在第二个区间，所以计算的时候，就**使用第二个区间的发生概率**。
 
 根据统计资料，可得：
 
  
 
-　　![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD523.tmp.png)
+　　![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD523.jpg)
 
  
 
@@ -301,17 +305,17 @@ MM：Moment method 矩估计
 
  
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD524.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD524.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD525.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD525.jpg)
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD536.tmp.png)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD536.jpg)
 
-可以看到，虽然这个用户没有使用真实头像，但是他是真实账号的概率，比虚假账号高出30多倍，选择概率最大的分类作为其分类 ，因此判断这个账号为真，![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD537.tmp.png)。
+可以看到，虽然这个用户没有使用真实头像，但是他是真实账号的概率，比虚假账号高出30多倍，选择概率最大的分类作为其分类 ，因此判断这个账号为真，![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD537.jpg)。
 
 ## g) **朴素贝叶斯分类流程**
 
-![img](https://raw.githubusercontent.com/ArvidLW/imagebed/master/machine_learning_note/wpsD538.tmp.jpg)
+![img](https://raw.githubusercontent.com/ArvidLW/arvidlw.github.io/master/images/machine_learning_note-small/wpsD538.jpg)
 
 **第一阶段**——据具体情况确定特征属性，并对每个特征属性进行适当划分，然后由人工对一部分待分类项进行分类，形成训练样本集合。
 
