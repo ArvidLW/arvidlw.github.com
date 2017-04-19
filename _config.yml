@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+title: lw's blog
+# encoding: UTF-8 //不用也行
+favicon: https://arvidlw.github.io/favicon.ico
