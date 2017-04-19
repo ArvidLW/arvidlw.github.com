@@ -1,8 +1,10 @@
-# 鐩綍
+# 目录
 
 ***
 
-1. [mysql闂](https://arvidlw.github.io/mysql%E9%97%AE%E9%A2%98)
-2. [璁捐妯″紡](https://arvidlw.github.io/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-3. [闈㈣瘯Q&A](https://arvidlw.github.io/%E9%9D%A2%E8%AF%95Q&A)
+1. [mysql问题](https://arvidlw.github.io/mysql问题)
+
+2. [设计模式](https://arvidlw.github.io/设计模式)
+
+3. [面试Q&A](https://arvidlw.github.io/面试Q&A)
 
