@@ -1,4 +1,4 @@
-# Ä¿Â¼
+# ç›®å½•
 
 ***
 
@@ -16,23 +16,23 @@
 
 ***
 
-1. [java±à³ÌË¼Ïë±Ê¼Ç-1](https://arvidlw.github.io/langLearn/java±à³ÌË¼Ïë±Ê¼Ç-1)
+1. [javaç¼–ç¨‹æ€æƒ³ç¬”è®°-1](https://arvidlw.github.io/langLearn/javaç¼–ç¨‹æ€æƒ³ç¬”è®°-1)
 
 2. [mysql](https://arvidlw.github.io/langLearn/mysql)
 
-3. [mysqlÎÊÌâ](https://arvidlw.github.io/langLearn/mysqlÎÊÌâ)
+3. [mysqlé—®é¢˜](https://arvidlw.github.io/langLearn/mysqlé—®é¢˜)
 
 4. [python_learning_note](https://arvidlw.github.io/langLearn/python_learning_note)
 
-5. [Éè¼ÆÄ£Ê½](https://arvidlw.github.io/langLearn/Éè¼ÆÄ£Ê½)
+5. [è®¾è®¡æ¨¡å¼](https://arvidlw.github.io/langLearn/è®¾è®¡æ¨¡å¼)
 
 # life
 
 ***
 
-1. [·¿×Ó](https://arvidlw.github.io/life/·¿×Ó)
+1. [æˆ¿å­](https://arvidlw.github.io/life/æˆ¿å­)
 
-2. [ÉíÌå](https://arvidlw.github.io/life/ÉíÌå)
+2. [èº«ä½“](https://arvidlw.github.io/life/èº«ä½“)
 
 # machineLearn
 
@@ -44,35 +44,35 @@
 
 ***
 
-1. [ICTCLASººÓï´ÊĞÔ±ê×¢](https://arvidlw.github.io/nlp/ICTCLASººÓï´ÊĞÔ±ê×¢)
+1. [ICTCLASæ±‰è¯­è¯æ€§æ ‡æ³¨](https://arvidlw.github.io/nlp/ICTCLASæ±‰è¯­è¯æ€§æ ‡æ³¨)
 
-2. [×ÔÈ»ÓïÑÔ´¦Àíµ÷ÑĞ](https://arvidlw.github.io/nlp/×ÔÈ»ÓïÑÔ´¦Àíµ÷ÑĞ)
+2. [è‡ªç„¶è¯­è¨€å¤„ç†è°ƒç ”](https://arvidlw.github.io/nlp/è‡ªç„¶è¯­è¨€å¤„ç†è°ƒç ”)
 
 # toolsUse
 
 ***
 
-1. [atom¿ì½İ¼ü](https://arvidlw.github.io/toolsUse/atom¿ì½İ¼ü)
+1. [atomå¿«æ·é”®](https://arvidlw.github.io/toolsUse/atomå¿«æ·é”®)
 
-2. [intellij¿ì½İ¼ü](https://arvidlw.github.io/toolsUse/intellij¿ì½İ¼ü)
+2. [intellijå¿«æ·é”®](https://arvidlw.github.io/toolsUse/intellijå¿«æ·é”®)
 
 3. [maven](https://arvidlw.github.io/toolsUse/maven)
 
-4. [sublime¿ì½İ¼ü](https://arvidlw.github.io/toolsUse/sublime¿ì½İ¼ü)
+4. [sublimeå¿«æ·é”®](https://arvidlw.github.io/toolsUse/sublimeå¿«æ·é”®)
 
-5. [windowsÃüÁî](https://arvidlw.github.io/toolsUse/windowsÃüÁî)
+5. [windowså‘½ä»¤](https://arvidlw.github.io/toolsUse/windowså‘½ä»¤)
 
-6. [ÎÒµÄÈí¼ş¿ì½İ¼üÉèÖÃ](https://arvidlw.github.io/toolsUse/ÎÒµÄÈí¼ş¿ì½İ¼üÉèÖÃ)
+6. [æˆ‘çš„è½¯ä»¶å¿«æ·é”®è®¾ç½®](https://arvidlw.github.io/toolsUse/æˆ‘çš„è½¯ä»¶å¿«æ·é”®è®¾ç½®)
 
-7. [±à¼­Æ÷¹¤¾ß](https://arvidlw.github.io/toolsUse/±à¼­Æ÷¹¤¾ß)
+7. [ç¼–è¾‘å™¨å·¥å…·](https://arvidlw.github.io/toolsUse/ç¼–è¾‘å™¨å·¥å…·)
 
-8. [·­Ç½¹¤¾ß](https://arvidlw.github.io/toolsUse/·­Ç½¹¤¾ß)
+8. [ç¿»å¢™å·¥å…·](https://arvidlw.github.io/toolsUse/ç¿»å¢™å·¥å…·)
 
 # web
 
 ***
 
-1. [apache2Óëphp](https://arvidlw.github.io/web/apache2Óëphp)
+1. [apache2ä¸php](https://arvidlw.github.io/web/apache2ä¸php)
 
 2. [discuz](https://arvidlw.github.io/web/discuz)
 
@@ -80,7 +80,7 @@
 
 ***
 
-1. [Ñ§Ï°µØ·½](https://arvidlw.github.io/work/Ñ§Ï°µØ·½)
+1. [å­¦ä¹ åœ°æ–¹](https://arvidlw.github.io/work/å­¦ä¹ åœ°æ–¹)
 
-2. [ÃæÊÔQ&A](https://arvidlw.github.io/work/ÃæÊÔQ&A)
+2. [é¢è¯•Q&A](https://arvidlw.github.io/work/é¢è¯•Q&A)
 
