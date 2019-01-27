@@ -180,4 +180,37 @@ positionIncrement: 分词后的词距表示，影响搜索结果。
 
 ## IK
 
-## HANLP
+## HANLPx
+
+# 2.3.3jieba
+
+[2.3.3]: https://github.com/huaban/elasticsearch-analysis-jieba
+
+./bin/plugin install file:///home/vcap/elasticsearch-analysis-jieba-2.3.3-bin.zip
+
+cp -r ./plugins/jieba/dic ./config/
+
+```
+curl -XPUT 127.0.0.1:9200/test -d '{
+    "settings" : {
+        "number_of_shards" : 1,
+        "number_of_replicas" : 0
+
+    },
+    "mappings" : {
+        "test" : {
+            "_all" : { "enabled" : false },
+            "properties" : {
+                "name" : { "type" : "string", "analyzer" : "jieba_index", "search_analyzer" : "jieba_search" }
+            }
+        }
+    }
+}';echo
+
+
+
+curl 'http://127.0.0.1:9200/test/_analyze?analyzer=jieba_index' -d '中华人民共和国';echo
+curl 'http://127.0.0.1:9200/test/_analyze?analyzer=jieba_search' -d '中华人民共和国';echo
+curl 'http://127.0.0.1:9200/test/_analyze?analyzer=jieba_other' -d '中华人民共和国 HelLo';echo
+```
+
